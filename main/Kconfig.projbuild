@@ -1,0 +1,15 @@
+menu "TuyaLink Configuration"
+
+    config PRODUCT_ID
+        string "PRODUCT_ID"
+        default "xxxxxxxxxxxxxxxx"
+
+    config DEVICE_ID
+        string "DEVICE_ID"
+        default "xxxxxxxxxxxxxxxxxxxxxx"
+
+    config DEVICE_SECRET
+        string "DEVICE_SECRET"
+        default "xxxxxxxxxxxxxxxx"
+        
+endmenu
